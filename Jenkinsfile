@@ -1,4 +1,4 @@
-echo 'test'
+echo 'Hello World'
 pipeline {
     agent {
         agent1 {

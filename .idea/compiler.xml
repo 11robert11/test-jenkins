@@ -10,7 +10,7 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="test-jenkins" target="16" />
+      <module name="test-jenkins" target="11" />
     </bytecodeTargetLevel>
   </component>
 </project>

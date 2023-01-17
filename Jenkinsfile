@@ -15,7 +15,7 @@ pipeline {
 
     stage('Deliver') {
       steps {
-        sh 'docker ps'
+        sh '/usr/bin/docker ps'
       }
     }
 

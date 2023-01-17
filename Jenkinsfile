@@ -12,12 +12,15 @@ pipeline {
       steps {
         sh 'mvn -B clean package'
       }
+
+    }
+
+    stage('Deliver') {
+    agent any
       steps {
         sh 'ls'
       }
     }
-
-
 
   }
 }

@@ -11,5 +11,10 @@ pipeline {
                 sh 'mvn -B clean package'
             }
         }
+        stage('Deliver') {
+            steps {
+                sh './deliver.sh'
+            }
+        }
     }
 }
